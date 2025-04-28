@@ -22,18 +22,18 @@ finally for sorting image from a pool of input images we can simply direct the i
 folder by the name of registered person name which is detected is created and images are streamed over there.
 
 
-#Usage
+Usage
 ===================
 
 Case 1. Register a person from webcam
 we simply use 
-python capture_face.py
+```python capture_face.py```
 
 Case 2. Register a person from images
-python register_from_images.py -n "your name" -i "input_location"
+```python register_from_images.py -n "your name" -i "input_location"```
 
 Case 3. Run a realtime recognition among the registered faces
-python realtime_recognition.py
+```python realtime_recognition.py```
 
 Case 4. Sort images from pool of image to output directory having individual registered people
-python image_bucket_sorter.py -i "input_dir" -o "output_dir"
+```python image_bucket_sorter.py -i "input_dir" -o "output_dir"```
