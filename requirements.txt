@@ -1,0 +1,8 @@
+opencv-python
+torch
+facenet-pytorch
+scikit-learn
+numpy
+pyyaml
+faiss-cpu
+insightface

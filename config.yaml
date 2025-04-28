@@ -1,0 +1,17 @@
+camera_index: 0
+capture:
+  burst_limit: 20
+  max_outliers: 19
+logging:
+  file: logs/app.log
+  level: INFO
+matching:
+  threshold: 0.7
+model:
+  detector: MTCNN
+  device: cpu
+  embedder: ArcFace
+paths:
+  embeddings_dir: registered_embeddings
+  pooled_images: input
+  sorted_images: output
